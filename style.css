@@ -1,9 +1,86 @@
-canvas {
-border: 1px solid black;
+#healthbareat{
+    background-color: pink;
+    width: 5vw;
+    height: 20vh;
+    padding: 0;
+    margin: 3px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
-body {
-    margin: 0;
+#healthbareat div{
     padding: 0;
-    overflow: hidden;
+    margin: 0;
+    background-color:red;
+    width: 100%;
+    height: 100%;
+}
+
+#healthbarsleep{
+    background-color: pink;
+    width: 5vw;
+    height: 20vh;
+    padding: 0;
+    margin: 3px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#healthbarsleep div{
+    padding: 0;
+    margin: 0;
+    background-color:red;
+    width: 100%;
+    height: 100%;
+}
+
+#healthbarshower{
+    background-color: pink;
+    width: 5vw;
+    height: 20vh;
+    padding: 0;
+    margin: 3px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#healthbarshower div{
+    padding: 0;
+    margin: o;
+    background-color:red;
+    width: 100%;
+    height: 100%;
+}
+
+
+ #hond {
+    height: 30vh; 
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-color:bisque;
+} 
+
+#center {
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#eat{
+    width: 5vw;
+    margin: 2px;
+}
+#sleep{
+    width: 5vw;
+    margin: 2px;
+}
+#shower{
+    width: 5vw;
+    margin: 1,5px;
 }

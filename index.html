@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html lang="NL">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bottle flipper</title>
+    <title>Tamagotchi</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <canvas>
-    </canvas>
-    <script src="main.js"></script>
+<!-- ik heb dit in een div gezet zodat mijn content in de body gecentered wordt, zonder div werd het helemaal gestretched of werkte het gewoon niet. -->
+  <div id="center">  
+    <h1>Zorg voor je huisdier</h1>
+   <img id="hond" src="pics/hond.png" alt="hond">
+   <br>  
+   <button id="eat">Eten</button> 
+   <button id="shower">Douchen</button> 
+   <button id="sleep">Slapen</button>
+    
+   <!-- dit is de healthbar, ik heb alles een id gegeven zodat het te selecteren is -->
+    <div class="container">
+        <!-- dit is in class omdat het niet werkte als id -->
+        <div id="healthbareat">
+            <div>
+            </div>
+        </div>
+        <div id="healthbarshower">
+            <div>
+            </div>
+        </div>
+        <div id="healthbarsleep">
+            <div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
